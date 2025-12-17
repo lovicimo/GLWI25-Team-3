@@ -1,0 +1,8 @@
+#finder config nicht mit versionieren
+.DS_Store
+
+#libreoffice config nicht mit versionieren
+docs/.~lock.Lastenheft.odt#
+
+#Microsoft word config nicht mit versionieren
+docs/~$stenheft.odt
