@@ -1,0 +1,166 @@
+diff --git a/.gitignore b/.gitignore
+new file mode 100644
+index 0000000..4060d4a
+--- /dev/null
++++ b/.gitignore
+@@ -0,0 +1,8 @@
++#finder config nicht mit versionieren
++.DS_Store
++
++#libreoffice config nicht mit versionieren
++docs/.~lock.Lastenheft.odt#
++
++#Microsoft word config nicht mit versionieren
++docs/~$stenheft.odt
+
+
+diff --git a/website/index.html b/website/index.html
+new file mode 100644
+index 0000000..f7faa31
+--- /dev/null
++++ b/website/index.html
+@@ -0,0 +1,80 @@
++<!DOCTYPE html>
++<html lang="de">
++<head>
++    <!-- Grundlegende Seiteneinstellungen -->
++    <meta charset="UTF-8">
++    <title>Teamwebseite – TechPort Berlin</title>
++    <link rel="stylesheet" href="style.css">
++
++</head>
++
++<body>
++
++    <!-- Überschrift der Seite -->
++    <h1>Teamwebseite – TechPort Berlin</h1>
++    <h2>Projekt: Besucher- und Sicherheitsmanagement</h2>
++
++    <br>
++
++    <!-- Kurze Beschreibung des Projekts -->
++    <fieldset>
++        <legend><strong>Projektbeschreibung</strong></legend>
++
++        <p>
++            In diesem Projekt analysiert unser Team das Besucher- und
++            Liefermanagement des TechPort Berlin.
++            Ziel ist es, Probleme zu identifizieren und einen einfachen
++            Lösungsentwurf zu entwickeln.
++        </p>
++
++    </fieldset>
++
++    <br><br>
++
++    <!-- Teamübersicht -->
++    <h2>Unser Team</h2>
++
++    <fieldset>
++        <legend><strong>Teammitglieder</strong></legend>
++
++        <!-- Lovis -->
++        <p>
++            <strong>Lovis</strong> – Senior Consultant<br>
++            <a href="lovis/team-lovis.html">Lovis Homepage</a>
++        </p>
++
++        <!-- Sebastian -->
++        <p>
++            <strong>Sebastian</strong> – Business- und Prozessanalyst<br>
++            <a href="sebastian/team-sebastian.html">Sebastian Homepage</a>
++        </p>
++
++        <!-- Ufuk -->
++        <p>
++            <strong>Ufuk</strong> – Junior IT-Consultant<br>
++            <a href="ufuk/team-ufuk.html">Ufuk Homepage</a>
++        </p>
++
++        <!-- Ali -->
++        <p>
++            <strong>Ali</strong> – UX-/Web Designer<br>
++            <a href="ali/team-ali.html">Ali Homepage</a>
++        </p>
++
++    </fieldset>
++
++    <br><br>
++
++    
++    <fieldset>
++        <legend><strong>Hinweis</strong></legend>
++
++        <p>
++            Jede Person hat eine eigene HTML-Seite mit ihrer Rolle,
++            ihren Aufgaben und persönlichen Beiträgen zum Projekt.
++        </p>
++
++    </fieldset>
++
++</body>
++</html>
+
+
+diff --git a/website/style.css b/website/style.css
+new file mode 100644
+index 0000000..84d9402
+--- /dev/null
++++ b/website/style.css
+@@ -0,0 +1,56 @@
++/* Grundlayout */
++body {
++    font-family: Arial, Helvetica, sans-serif;
++    background-color: #f4f6f8;
++    color: #333;
++    max-width: 900px;
++    margin: 0 auto;
++    padding: 30px;
++    line-height: 1.6;
++}
++
++/* Überschriften */
++h1 {
++    color: #1f3c88;
++    margin-bottom: 5px;
++}
++
++h2 {
++    color: #3a3a3a;
++    margin-top: 10px;
++    margin-bottom: 15px;
++}
++
++/* Inhaltsboxen */
++fieldset {
++    background-color: #ffffff;
++    border: 1px solid #ccc;
++    border-radius: 6px;
++    padding: 20px;
++    margin-bottom: 20px;
++}
++
++legend {
++    padding: 0 10px;
++    font-weight: bold;
++    color: #1f3c88;
++}
++
++/* Text */
++p {
++    margin: 10px 0;
++}
++
++fieldset p {
++    margin-bottom: 15px;
++}
++
++/* Links */
++a {
++    color: #1f3c88;
++    text-decoration: none;
++}
++
++a:hover {
++    text-decoration: underline;
++}
