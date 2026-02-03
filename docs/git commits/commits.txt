@@ -1,0 +1,19 @@
+commit d11a430acd691218b6bcb88dfe594b707b8f837e
+Author: lovicimo <s_lindnerl25@stud.hwr-berlin.de>
+Date:   Thu Dec 11 22:02:52 2025 +0100
+
+    Create initial README for GLWI project
+    
+    Added initial README for GLWI project outlining structure, team roles, project goals, and GitHub usage.
+
+commit b73fa35588bb7aab70e2b62f869dba2a4336b8c4
+Author: Ali <amatar285@gmail.com>
+Date:   Tue Jan 20 16:01:27 2026 +0100
+
+    css für die persönliche hinzugefügt + code formator ausgelöst
+
+commit 06a076eafcd7e4c41b9f22a9694328e14b28b797
+Author: Ali <amatar285@gmail.com>
+Date:   Sat Jan 17 23:57:14 2026 +0100
+
+    zurück zur teamwebsite korrigiert
